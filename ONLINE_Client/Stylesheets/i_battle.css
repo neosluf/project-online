@@ -1,0 +1,60 @@
+#i_battle_div_2,
+#i_battle_div_4{
+    display: inline-block;
+    text-align: center;
+}
+/* ===================================================================  */
+#i_battle_tabletxt_player1_image,
+#i_battle_tabletxt_player2_image{
+    width: 60px;
+    height: 60px;
+}
+#i_battle_tablemain_player1,
+#i_battle_tablemain_player2{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    display:inline-block;
+    text-align: center;
+}
+#i_battle_tabletxt_player1_name,
+#i_battle_tabletxt_player2_name{
+    font-weight: bold;
+    font-size:14px;
+    margin-left:3px;
+    margin-right:3px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+#i_battle_tabletxt_player1_health,
+#i_battle_tabletxt_player2_health{
+    font-weight: bold;
+    font-size:14px;
+}
+
+#i_battle_tablediv_player1{
+    background-color: tomato;
+    padding:5px;
+    width:110px;
+    display:inline-block;
+    text-align: center;
+}
+#i_battle_tablediv_player2{
+    background-color: lightskyblue;
+    padding:5px;
+    width:110px;
+    display:inline-block;
+    text-align: center;
+}
+/* ===================================================================  */
+.i_battle_table_controls_button{
+    width:60px;
+    height:60px;
+    text-align: center;
+    margin: 4px;
+}
+#i_battle_table_controls_button00,
+#i_battle_table_controls_button10{
+    margin-right: 15px;
+}
+/* ===================================================================  */

@@ -1,0 +1,12 @@
+#i_result_judgement {
+    font-size: 25px;
+    font-weight: bold;
+    margin:50px;
+}
+#i_result_button_playagain{
+    font-size:18px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    margin:5px;
+}

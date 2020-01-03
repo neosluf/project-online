@@ -1,0 +1,41 @@
+<DOCTYPE html>
+    <head>
+        <title>Project ONLINE v0.0.1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./ONLINE_Client/Systems/socket-io-client.js"></script>
+        <style type="text/css">body {text-align:center; margin: 0px;padding: 0px;} header, form, div, h1, section, footer,br, p,textarea,input,button {margin: 0px;padding: 0px; display: inline-block;} #GAME_AREA {display: inline-block;}</style>
+        <link rel="stylesheet" type="text/css" href="./ONLINE_Client/Stylesheets/i_loadscreen.css">
+        <link rel="stylesheet" type="text/css" href="./ONLINE_Client/Stylesheets/i_home.css">
+        <link rel="stylesheet" type="text/css" href="./ONLINE_Client/Stylesheets/i_wait.css">
+        <link rel="stylesheet" type="text/css" href="./ONLINE_Client/Stylesheets/i_battle.css">
+        <link rel="stylesheet" type="text/css" href="./ONLINE_Client/Stylesheets/i_result.css">
+    </head>
+    <body id="body">
+        <!-- ===== CLIENT ===== -->
+        <script src="./ONLINE_Client/Interface/i_loadscreen.js"></script>
+        <script src="./ONLINE_Client/Interface/i_home.js"></script>
+        <script src="./ONLINE_Client/Interface/i_wait.js"></script>
+        <script src="./ONLINE_Client/Interface/i_battle.js"></script>
+        <script src="./ONLINE_Client/Interface/i_result.js"></script>
+        <!-- -->
+        <script src="./ONLINE_Client/Systems/dom.js"></script>
+        <script src="./ONLINE_Client/Systems/config.js"></script>
+        <script src="./ONLINE_Client/Systems/data.js"></script>
+        <script src="./ONLINE_Client/Systems/bridge.js"></script>
+        <!-- ==================================== -->
+        <div id="GAME_AREA"></div>
+        <!-- -->
+        <script type="text/javascript">
+            //Set Game Area
+            dom.main_area = "GAME_AREA";
+            //Initialize Main Area
+            window.onload = function(){
+                //Now start the initialization
+                i_loadscreen.initialize();
+            };
+            
+        </script>
+        <!-- -->
+    </body>
+</html>

@@ -1,0 +1,26 @@
+#i_loadscreen_txt1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:20px;
+}
+#i_loadscreen_txt2 {
+    font-size: 30px;
+    margin-bottom:15px;
+}
+#i_loadscreen_txt3 {
+    font-size: 20px;
+    font-style: italic;
+}
+#i_loadscreen_txt4 {
+    padding-top:10px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#i_loadscreen_txt5 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top:15px;
+}

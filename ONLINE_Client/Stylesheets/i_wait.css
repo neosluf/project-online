@@ -1,0 +1,12 @@
+#i_wait_txt {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:20px;
+}
+#i_wait_button_cancel{
+    font-size:18px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    margin:30px;
+}

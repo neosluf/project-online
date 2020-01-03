@@ -1,0 +1,22 @@
+{
+  "name": "Project_ONLINE",
+  "version": "0.0.1",
+  "description": "An online 1vs1 game",
+  "engines": {
+    "node": "10.13.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "dependencies": {
+     "express": "^4.16.1",
+     "socket.io": "^2.2.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
